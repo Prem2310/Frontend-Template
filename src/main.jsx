@@ -10,9 +10,9 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
         <ChakraProvider>
-            <ClerkProvider>
-                <App />
-            </ClerkProvider>
+            {/* <ClerkProvider> */}
+            <App />
+            {/* </ClerkProvider> */}
         </ChakraProvider>
     </BrowserRouter>
 );
